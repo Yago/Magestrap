@@ -1,0 +1,34 @@
+{
+    "name": "yago/magestrap",
+    "type": "magento-module",
+    "description": "Bootstrap 3 based theme",
+    "license": "AFL v3.0",
+    "authors": [
+        {
+            "name": "Magento Inc"
+        },
+        {
+            "name": "Yann Gouffon",
+            "email": "hello@yago.io"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/magento-composer-installer"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer":"*"
+    },
+    "extra": {
+        "magento-root-dir": "./",
+        "magento-deploystrategy": "copy",
+        "map": [
+            
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
